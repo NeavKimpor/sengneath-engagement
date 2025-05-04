@@ -33,6 +33,17 @@ html, body, #root {
   color: #F4EAD0;
 }
 
+.b-text {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+      "wdth" 100;
+  color: #D3C8B3;
+  font-size: 1rem;
+}
+
 .open-button {
   font-family: "Kantumruy Pro", sans-serif;
   font-optical-sizing: auto;
@@ -43,4 +54,60 @@ html, body, #root {
   padding: 0.5em 1.5em;
   font-size: 1.2rem;
   border-radius: 2rem;
+}
+
+/* Small Mobile: iPhone X and smaller */
+@media (max-width: 375px) {
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .sub-title {
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+
+  .b-text {
+    font-size: 0.9rem;
+  }
+
+  .title, .sub-title {
+    word-break: break-word;
+    hyphens: auto;
+    white-space: normal;
+  }
+
+  .logo {
+    width: 140px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  .sub-title {
+    font-size: 1.2rem;
+  }
+  .logo {
+    width: 220px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .title {
+    font-size: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .sub-title {
+    font-size: 1.3rem;
+  }
+  .logo {
+    width: 260px;
+    max-width: 100%;
+  }
 }

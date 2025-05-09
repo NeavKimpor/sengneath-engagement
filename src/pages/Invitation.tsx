@@ -1,11 +1,11 @@
 import MusicPlayer from "../components/MusicPlayer";
 import Logo from "../assets/images/logo.webp"
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Heart } from "lucide-react";
 function Invitation() {
     return (
         <div className="bg-cover bg-center bg-no-repeat bg-fixed bg-[#F9F3EC]">
             <MusicPlayer/>
-            <div className="px-4 py-20 bg-cover bg-center bg-no-repeat bg-fixed" style={{backgroundImage: 'url(".././public/nudefloral.png")'}}>
+            <div className="px-4 py-20 bg-cover bg-center bg-no-repeat bg-fixed​" style={{backgroundImage: 'url("/nudefloral.png")'}}>
                 {/* Opening */}
                 <div className="text-center">
                     
@@ -58,7 +58,7 @@ function Invitation() {
                             {/* <h1 className="title">លោក នៅ ធី</h1> */}
                             <div className="flex gap-1 items-center text-[]">
                                 <p className="metal-regular text-xs text-nude2">លោកស្រី</p>
-                                <p className="moul-regular text-sm text-mediumearth">ហុី សនសានី</p>
+                                <p className="moul-regular text-sm text-mediumearth">ហុី សានសានី</p>
                             </div>
                         </div>
                     </div>
@@ -69,6 +69,15 @@ function Invitation() {
                             <h1 className="moul-regular text-center mt-2 text-mediumearth">នៅ<br></br>គីមសេង</h1>
                         </div>
                         {/* <img src={Logo} className="w-32 h-auto" alt="" /> */}
+                        {/* <div className="items-center text-center">
+                            <p className="metal-regular text-[0.7rem] text-nude3">ជា</p>
+                            <p className="moul-regular text-md text-mediumearth pb-2">គូ</p>
+                            <p className="metal-regular text-[0.7rem] text-nude3">នឹង</p>
+                        </div> */}
+                        <div className="relative flex justify-center items-center w-10 h-10">
+                            <Heart className="fill-mediumearth text-mediumearth w-full h-full" />
+                            <Heart size={16} className="fill-mediumearth text-mediumearth absolute -right-2 bottom-1 rotate-12" />
+                        </div>
                         <div className="br-name">
                             <p className="metal-regular text-xs text-nude2">កូនស្រីនាម</p>
                             <h1 className="moul-regular text-center mt-2 text-mediumearth">រិន<br></br>សានាថ</h1>
@@ -77,7 +86,7 @@ function Invitation() {
                     <div className="datetime text-center">
                         <div className="flex gap-1 justify-center items-end">
                             <p className="metal-regular text-sm">ដែលប្រព្រឹត្តទៅ ចាប់ពីម៉ោង</p>
-                            <p className="moul-regular text-md">៧ព្រឹក</p>
+                            <p className="moul-regular text-md"> ៩ព្រឹក</p>
                         </div>
                         <p className="moul-regular mt-2">​ថ្ងៃទី៣១​ ខែឧសភា ឆ្នាំ២០២៥</p>
                     </div>

@@ -5,7 +5,7 @@ function Invitation() {
     return (
         <div className="bg-cover bg-center bg-no-repeat bg-fixed bg-[#F9F3EC]">
             <MusicPlayer/>
-            <div className="px-4 py-20 bg-cover bg-center bg-repeat bg-fixed" style={{backgroundImage: 'url("/1flora.png")'}}>
+            <div className="px-4 py-20 bg-cover bg-center bg-repeat bg-fixed" style={{backgroundImage: 'url("/1floral.png")'}}>
                 {/* Opening */}
                 <div className="text-center">
                     

@@ -13,39 +13,42 @@ html, body, #root {
   background-attachment: fixed;
 }
 
-.sub-title {
+.moulpali-regular {
+  font-family: "Moulpali", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.moulpali-medium {
+  font-family: "Moulpali", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.metal-regular {
+  font-family: "Metal", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.moul-regular {
+  font-family: "Moul", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kantumruy-regular {
   font-family: "Kantumruy Pro", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   font-variation-settings:
-      "wdth" 100;
-  color: #D3C8B3;
-  font-size: 1.2rem;
-}
-
-.title {
-  font-family: "Kantumruy Pro", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 1.6rem;
-  color: #F4EAD0;
-}
-
-.b-text {
-  font-family: "Kantumruy Pro", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings:
-      "wdth" 100;
-  color: #D3C8B3;
-  font-size: 1rem;
+    "wdth" 100;
 }
 
 .open-button {
-  font-family: "Kantumruy Pro", sans-serif;
+  /* font-family: "Kantumruy Pro", sans-serif; */
+  
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
@@ -58,38 +61,15 @@ html, body, #root {
 
 /* Small Mobile: iPhone X and smaller */
 @media (max-width: 375px) {
-  .title {
-    font-size: 1.4rem;
-  }
-
-  .sub-title {
-    font-size: 1rem;
-    padding-top: 1rem;
-  }
-
-  .b-text {
-    font-size: 0.9rem;
-  }
-
-  .title, .sub-title {
-    word-break: break-word;
-    hyphens: auto;
-    white-space: normal;
-  }
 
   .logo {
-    width: 140px;
+    width: 200px;
   }
 }
 
 /* Tablet */
 @media (min-width: 768px) {
-  .title {
-    font-size: 1.8rem;
-  }
-  .sub-title {
-    font-size: 1.2rem;
-  }
+
   .logo {
     width: 220px;
   }
@@ -97,15 +77,7 @@ html, body, #root {
 
 /* Desktop */
 @media (min-width: 1024px) {
-  .title {
-    font-size: 2rem;
-    max-width: 800px;
-    margin: auto;
-  }
-
-  .sub-title {
-    font-size: 1.3rem;
-  }
+  
   .logo {
     width: 260px;
     max-width: 100%;

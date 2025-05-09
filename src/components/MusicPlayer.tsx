@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Play, Pause } from "lucide-react";
-import Song from "../assets/mp3/Olica - (First Step) Olica & Vithyeas wedding song (Prod. by NICK IT).mp3"
+import Song from "../assets/mp3/yung kai - Blue Piano Cover Sheet Music.mp3"
 
 function MusicPlayer() {
     const audioRef = useRef<HTMLAudioElement>(null);

@@ -6,8 +6,18 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        moulseda: ['MoulSeda', 'sans-serif']
+      },
       colors: {
         sand: '#D3C8B3',
+        nude1: '#d6c2b2',
+        nude2: '#aa9788',
+        nude3: '#806e60',
+        nude4: '#58483b',
+        nude5: '#332519',
+        lightearth: '#ceaa9a',
+        mediumearth: '#B5927F'
       },
       keyframes: {
         zoom: {

@@ -5,7 +5,7 @@ function Invitation() {
     return (
         <div className="bg-cover bg-center bg-no-repeat bg-fixed bg-[#F9F3EC]">
             <MusicPlayer/>
-            <div className="px-4 py-20 bg-cover bg-center bg-no-repeat bg-fixed​" style={{backgroundImage: 'url("/nudefloral.png")'}}>
+            <div className="px-4 py-20 bg-cover bg-center bg-repeat bg-fixed" style={{backgroundImage: 'url("/1flora.png")'}}>
                 {/* Opening */}
                 <div className="text-center">
                     
@@ -58,7 +58,7 @@ function Invitation() {
                             {/* <h1 className="title">លោក នៅ ធី</h1> */}
                             <div className="flex gap-1 items-center text-[]">
                                 <p className="metal-regular text-xs text-nude2">លោកស្រី</p>
-                                <p className="moul-regular text-sm text-mediumearth">ហុី សានសានី</p>
+                                <p className="moul-regular text-sm text-mediumearth">ហ៊ី សានសានី</p>
                             </div>
                         </div>
                     </div>

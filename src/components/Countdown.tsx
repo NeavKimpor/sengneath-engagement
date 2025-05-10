@@ -42,25 +42,25 @@ const Countdown = () => {
             <div className="text-center">
                 <div className="flex justify-between gap-6 text-xl">
                     <div className="flex flex-col items-center gap-y-2">
-                        <span className="text-4xl font-bold text-nude2">
+                        <span className="text-3xl font-bold text-nude2 moul-regular">
                         {toKhmerNumber(timeLeft.days)}
                         </span>
                         <span className="text-nude2 moul-regular">ថ្ងៃ</span>
                     </div>
                     <div className="flex flex-col items-center gap-y-2">
-                        <span className="text-4xl font-bold text-nude2">
+                        <span className="text-3xl font-bold text-nude2 moul-regular">
                         {toKhmerNumber(timeLeft.hours)}
                         </span>
                         <span className="text-nude2 moul-regular">ម៉ោង</span>
                     </div>
                     <div className="flex flex-col items-center gap-y-2">
-                        <span className="text-4xl font-bold text-nude2">
+                        <span className="text-3xl font-bold text-nude2 moul-regular">
                         {toKhmerNumber(timeLeft.minutes)}
                         </span>
                         <span className="text-nude2 moul-regular">នាទី</span>
                     </div>
                     <div className="flex flex-col items-center gap-y-2">
-                        <span className="text-4xl font-bold text-nude2">
+                        <span className="text-3xl font-bold text-nude2 moul-regular">
                         {toKhmerNumber(timeLeft.seconds)}
                         </span>
                         <span className="text-nude2 moul-regular">វិនាទី</span>

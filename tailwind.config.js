@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'frame': `url('/lframe.png'), url('/rframe.png')`
+      },
       fontFamily: {
         moulseda: ['MoulSeda', 'sans-serif']
       },

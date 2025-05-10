@@ -1,20 +1,20 @@
 import MusicPlayer from "../components/MusicPlayer";
-import Logo from "../assets/images/logo.webp"
+import Logo from "/logo.png"
 import { ChevronDown, Heart } from "lucide-react";
 function Invitation() {
     return (
-        <div className="bg-cover bg-center bg-no-repeat bg-fixed bg-[#F9F3EC]">
+        <div className="bg-cover bg-center bg-no-repeat bg-fixed bg-[#F9F3EC]" style={{backgroundImage: 'url("/")'}}>
             <MusicPlayer/>
-            <div className="px-4 py-20 bg-cover bg-center bg-repeat bg-fixed" style={{backgroundImage: 'url("/1floral.png")'}}>
+            <div className="py-28 bg-cover bg-top bg-repeat bg-fixed" style={{backgroundImage: 'url("/frame1.png")'}}>
                 {/* Opening */}
                 <div className="text-center">
                     
-                    <div className="moulpali-medium text-xl text-nude2">
+                    <div className="moulpali-bold text-[1.35rem] text-nude2 mb-3">
                         <div>សិរីមង្គល</div>
                         <div className="mt-2">ពិធីពិសាស្លាដក់កន្សែង</div>
                     </div>
 
-                    {/* <img src={Logo} className="w-64 max-w-md h-auto mx-auto py-4" alt="" /> */}
+                    {/* <img src={Logo} className="w-64 max-w-md h-auto mx-auto py-4" alt="" />
                     <div className="flex justify-center items-center gap-12 py-6">
                         <div className="groom-name">
                             <p className="metal-regular text-sm text-nude2 mb-2">កូនប្រុសនាម</p>
@@ -24,8 +24,27 @@ function Invitation() {
                             <p className="metal-regular text-sm text-nude2 mb-2">កូនស្រីនាម</p>
                             <h1 className="moul-regular text-lg text-mediumearth">រិន សានាថ</h1>
                         </div>
+                    </div> */}
+
+                    <div className="relative w-64 max-w-md h-auto mx-auto py-4">
+                        {/* Image */}
+                        <img src={Logo} className="w-full h-auto" alt="" />
+
+                        {/* Floating Names */}
+                        <div className="absolute bottom-4 left-0 right-0 flex justify-between items-center gap-12">
+                            <div className="groom-name text-center">
+                            <p className="metal-regular text-sm text-nude2 mb-2">កូនប្រុសនាម</p>
+                            <h1 className="moul-regular text-lg text-mediumearth">នៅ<br></br>គីមសេង</h1>
+                            </div>
+                            <div className="bride-name text-center">
+                            <p className="metal-regular text-sm text-nude2 mb-2">កូនស្រីនាម</p>
+                            <h1 className="moul-regular text-lg text-mediumearth">រិន<br></br>សានាថ</h1>
+                            </div>
+                        </div>
                     </div>
-                    <div className="datetime text-center py-10">
+
+
+                    <div className="datetime text-center py-4">
                         <p className="metal-regular text-sm mb-4 text-nude2">ដែលប្រព្រឹត្តទៅនៅ</p>
                         <p className="moul-regular text-mediumearth">​ថ្ងៃទី៣១​ ខែឧសភា ឆ្នាំ២០២៥</p>
                     </div>

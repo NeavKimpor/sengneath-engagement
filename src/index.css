@@ -25,6 +25,12 @@ html, body, #root {
   font-style: normal;
 }
 
+.moulpali-bold {
+  font-family: "Moulpali", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
 .metal-regular {
   font-family: "Metal", serif;
   font-weight: 400;

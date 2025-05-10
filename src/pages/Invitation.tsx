@@ -128,7 +128,7 @@ function Invitation() {
                             <h1 className="moul-regular text-center mt-2 text-mediumearth">រិន<br></br>សានាថ</h1>
                         </div>
                     </div>
-                    <p className="metal-regular text-center text-xs leading-7 text-nude3">ដែលនឹងប្រព្រឹត្តទៅនៅថ្ងៃសៅរ៍ ៥កើត ខែជេស្ឋ ឆ្នាំម្សាញ់ <br></br>សប្តស័ក ពុទ្ធសករាជ២៥៦៩ ត្រូវនឹងថ្ងៃទី៣១ ខែឧសភា ឆ្នាំ២០២៥ <br></br>វេលាម៉ោង ៩:០០ ព្រឹក ស្ថិតនៅ</p>
+                    <p className="metal-regular text-center text-xs leading-7 text-nude3">ដែលនឹងប្រព្រឹត្តទៅនៅថ្ងៃសៅរ៍ ៥កើត ខែជេស្ឋ ឆ្នាំម្សាញ់ <br></br>សប្តស័ក ពុទ្ធសករាជ២៥៦៩ ត្រូវនឹងថ្ងៃទី៣១ ខែឧសភា ឆ្នាំ២០២៥ <br></br>វេលាម៉ោង ៩:០០ ព្រឹក ស្ថិតនៅភោជនីយដ្ធាន ជីងឡុង</p>
                     {/* <div className="datetime text-center">
                         <div className="flex gap-1 justify-center items-end">
                             <p className="metal-regular text-sm">ដែលប្រព្រឹត្តទៅ ចាប់ពីម៉ោង</p>

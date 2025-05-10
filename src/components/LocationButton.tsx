@@ -1,7 +1,7 @@
 import MapPinIcon from "../assets/images/google-map-icon.svg"; 
 
 function LocationButton() {
-    const googleMapsUrl = "https://www.google.com/maps?q=13.4125,103.8667"; 
+    const googleMapsUrl = "https://maps.app.goo.gl/4KDagaxSJNQMF6bc9"; 
 
     return (
         <a

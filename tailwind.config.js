@@ -9,9 +9,6 @@ export default {
       backgroundImage: {
         'frame': `url('/lframe.png'), url('/rframe.png')`
       },
-      fontFamily: {
-        moulseda: ['MoulSeda', 'sans-serif']
-      },
       colors: {
         sand: '#D3C8B3',
         nude1: '#d6c2b2',

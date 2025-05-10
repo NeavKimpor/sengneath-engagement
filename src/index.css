@@ -37,9 +37,21 @@ html, body, #root {
   font-style: normal;
 }
 
+.metal-medium {
+  font-family: "Metal", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .moul-regular {
   font-family: "Moul", serif;
   font-weight: 400;
+  font-style: normal;
+}
+
+.moul-light {
+  font-family: "Moul", serif;
+  font-weight: 200;
   font-style: normal;
 }
 

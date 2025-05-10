@@ -3,9 +3,11 @@ import Logo from "/logo.png"
 import { ChevronDown, Heart } from "lucide-react";
 function Invitation() {
     return (
-        <div className="bg-cover bg-center bg-no-repeat bg-fixed bg-[#F9F3EC]" style={{backgroundImage: 'url("/")'}}>
+        <div className="w-full min-h-screen bg-cover bg-center bg-no-repeat bg-fixed bg-[#F9F3EC]" style={{backgroundImage: 'url("/")'}}>
             <MusicPlayer/>
-            <div className="py-28 w-full h-auto bg-cover bg-left-top bg-no-repeat bg-fixed bg-frame" style={{backgroundImage: `url('/lframe.png'), url('/rframe.png')`,}}>
+            <img src="/lframe.png" className="fixed top-0 -left-16 h-screen object-cover z-0 pointer-events-none" alt="" />
+            <img src="/rframe.png" className="fixed top-0 -right-16 h-screen object-cover z-0 pointer-events-none" alt="" />
+            <div className="py-28 relative z-10">
                 {/* Opening */}
                 <div className="text-center">
                     

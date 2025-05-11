@@ -8,9 +8,9 @@ function WaxSealButton() {
             <div className="relative z-10 flex items-center justify-center">
                 <Link
                     to="/invitation"
-                    className="w-48 relative cursor-pointer hover:scale-105 transition-transform duration-300"
+                    className="w-36 md:w-48 lg:w-64 relative cursor-pointer transition-transform duration-300 animate-zoom"
                 >
-                    <img src={WaxSeal} alt="" />
+                    <img src={WaxSeal} alt="Wax Seal" />
                 </Link>
             </div>
         </div>
@@ -18,4 +18,3 @@ function WaxSealButton() {
 }
 
 export default WaxSealButton;
-

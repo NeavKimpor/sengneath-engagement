@@ -182,6 +182,32 @@ function Invitation() {
                 </div>
 
             </div>
+
+            {/* Image Model */}
+            {isOpen && selectedImage && (
+                <div
+                    className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70"
+                    onClick={closeImage} // close when clicking anywhere
+                >
+                    <div
+                    className="relative"
+                    onClick={(e) => e.stopPropagation()} // stop click from bubbling up
+                    >
+                    <button
+                        className="absolute top-2 right-2 text-white text-2xl"
+                        onClick={closeImage}
+                    >
+                        &times;
+                    </button>
+                    <img
+                        src={selectedImage}
+                        alt="Enlarged view"
+                        className="max-h-[90vh] max-w-[90vw] rounded-md"
+                    />
+                    </div>
+                </div>
+            )}
+
         </motion.div>
     )
 }

@@ -1,4 +1,5 @@
 import MusicPlayer from "../components/MusicPlayer";
+import { useEffect } from 'react';
 import Logo from "/logo.png"
 import KHLogo from "/khlogo.png"
 import { ChevronDown, Heart } from "lucide-react";
@@ -15,8 +16,19 @@ import Countdown from "../components/Countdown";
 import { motion } from "framer-motion"
 
 function Invitation() {
+
+    useEffect(() => {
+        // Scroll to the top of the page when the component mounts
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
-        <motion.div initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} transition={{duration:0.8}}>
+        <motion.div 
+        initial={{opacity:0}} 
+        animate={{opacity:1}} 
+        exit={{opacity:0}} 
+        transition={{duration:0.8}}
+        >
             <div className="w-full min-h-screen bg-fixed bg-white">
                 <MusicPlayer/>
                 <img src="/lframe.png" className="fixed top-0 -left-16 h-screen object-cover z-10 pointer-events-none" alt="" />

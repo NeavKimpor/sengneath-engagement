@@ -39,6 +39,7 @@ export default {
         'spin-slow': 'spin 3s linear infinite',
         float: 'float 2s ease-in-out infinite',
         turn3D: 'turn3D 4s ease-in-out infinite alternate',
+        'zoom-in-out': 'zoomInOut 5s ease-in-out infinite',
       },
     },
   },

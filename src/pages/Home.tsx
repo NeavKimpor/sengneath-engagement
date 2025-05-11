@@ -1,9 +1,5 @@
-import React from "react";
-import OpeningButton from "../components/OpeningButton";
 import WaxSealButton from "../components/WaxSealButton";
 import Logo from "/logo-md.png"
-import flower1 from '../assets/images/upperflower.png'
-import bird1 from '/bird1.png'
 import { motion } from "framer-motion"
 
 function Home() {

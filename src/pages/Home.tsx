@@ -15,7 +15,7 @@ function Home() {
             exit={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8 }}>
-            <div className="bg-[url('/frontbg.png')] bg-fixed bg-cover bg-no-repeat bg-center lg:bg-[url('/frontbgland.png')] lg:bg-cover">
+            <div className="bg-[url('/frontbg.png')] min-h-screen bg-fixed bg-cover bg-no-repeat bg-center lg:bg-[url('/frontbgland.png')] lg:bg-cover">
                 <div className="items-center text-center py-9" >                
                     <div className="lg:mt-2">
                         <p className="moul-regular text-nude3 text-[1.4rem] md:text-3xl lg:text-4xl">សិរីមង្គល</p>

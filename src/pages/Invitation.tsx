@@ -1,5 +1,5 @@
 import MusicPlayer from "../components/MusicPlayer";
-import { useEffect } from 'react';
+import { SetStateAction, useEffect, useState } from 'react';
 import Logo from "/logo.png"
 import KHLogo from "/khlogo.png"
 import { ChevronDown, Heart } from "lucide-react";
@@ -9,13 +9,27 @@ import img3 from "../assets/images/IMG_3399.webp"
 import img4 from "../assets/images/IMG_3400.webp"
 import img5 from "../assets/images/IMG_3402.webp"
 import img6 from "../assets/images/IMG_3404.webp"
-import img7 from "../assets/images/chibi.jpg"
+import img7 from "../assets/images/IMG_3727.webp"
+import img8 from "../assets/images/IMG_3728.webp"
 import LocationButton from "../components/LocationButton";
 import Agenda from "../components/Agenda";
 import Countdown from "../components/Countdown";
 import { motion } from "framer-motion"
 
 function Invitation() {
+
+    const [isOpen, setIsOpen] = useState(false);
+    const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+    const openImage = (imageSrc: string) => {
+    setSelectedImage(imageSrc);
+    setIsOpen(true);
+    };
+
+    const closeImage = () => {
+    setIsOpen(false);
+    setSelectedImage(null);
+    };
 
     useEffect(() => {
         // Scroll to the top of the page when the component mounts
@@ -70,19 +84,20 @@ function Invitation() {
                     <div className="py-10 md:py-16">
                         <h1 className="moulpali-medium text-center text-nude2 mt-4 mb-10 text-xl md:text-3xl md:mt-8 md:mb-16">កម្រងរូបភាពអនុស្សាវរីយ៍</h1>
                         <div className="flex justify-center gap-x-4 md:gap-x-8">
-                            <img src={img1} className="w-32 h-auto rotate-6 md:w-56 lg:w-72" alt="" />
-                            <img src={img2} className="w-32 h-auto -rotate-6 md:w-56 lg:w-72" alt="" />
+                            <img src={img1} onClick={() => openImage(img1)} className="w-32 h-auto rotate-6 md:w-56 lg:w-72" alt="" />
+                            <img src={img2} onClick={() => openImage(img2)} className="w-32 h-auto -rotate-6 md:w-56 lg:w-72" alt="" />
                         </div>
                         <div className="flex justify-center gap-x-4 my-4 md:gap-x-8 lg:my-12">
-                            <img src={img6} className="w-32 h-auto md:w-56 lg:w-72" alt="" />
-                            <img src={img4} className="w-32 h-auto md:w-56 lg:w-72" alt="" />
+                            <img src={img6} onClick={() => openImage(img6)} className="w-32 h-auto -rotate-6 md:w-56 lg:w-72" alt="" />
+                            <img src={img4} onClick={() => openImage(img4)} className="w-32 h-auto rotate-6 md:w-56 lg:w-72" alt="" />
+                        </div>
+                        <div className="flex justify-center gap-x-4 my-4 md:gap-x-8 lg:my-12">
+                            <img src={img5} onClick={() => openImage(img5)} className="w-32 h-auto rotate-6 md:w-56 lg:w-72" alt="" />
+                            <img src={img3} onClick={() => openImage(img3)} className="w-32 h-auto -rotate-6 md:w-56 lg:w-72" alt="" />
                         </div>
                         <div className="flex justify-center gap-x-4 md:gap-x-8">
-                            <img src={img5} className="w-32 h-auto -rotate-6 md:w-56 lg:w-72" alt="" />
-                            <img src={img3} className="w-32 h-auto rotate-6 md:w-56 lg:w-72" alt="" />
-                        </div>
-                        <div className="mt-8 w-56 mx-auto">
-                            <img src={img7} alt="" />
+                            <img src={img7} onClick={() => openImage(img7)} className="w-32 h-auto -rotate-6 md:w-56 lg:w-72" alt="" />
+                            <img src={img8} onClick={() => openImage(img8)} className="w-32 h-auto rotate-6 md:w-56 lg:w-72" alt="" />
                         </div>
                     </div>
 

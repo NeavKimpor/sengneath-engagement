@@ -106,7 +106,7 @@ function Invitation() {
                     <p className="metal-regular text-center text-[0.8rem] leading-7 text-nude3 md:text-lg md:leading-10 md:my-4">ដែលនឹងប្រព្រឹត្តទៅនៅថ្ងៃសៅរ៍ ៥កើត ខែជេស្ឋ ឆ្នាំម្សាញ់ <br></br>សប្តស័ក ពុទ្ធសករាជ២៥៦៩ ត្រូវនឹងថ្ងៃទី៣១ ខែឧសភា ឆ្នាំ២០២៥ <br></br>វេលាម៉ោង ៩:០០ ព្រឹក ស្ថិតនៅភោជនីយដ្ធាន ជីងឡុង</p>
                     
                     <div className="text-center mt-6">
-                        <LocationButton/>
+                        <LocationButton/>F
                     </div>
                 </div>
 

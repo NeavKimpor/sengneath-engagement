@@ -3,7 +3,7 @@ function Agenda() {
         <div className="md:py-8">
             <div className="text-center">
                 <h1 className="moul-regular text-md text-nude2 md:text-2xl">ម៉ោង​ ៨:០០នាទីព្រឹក</h1>
-                <p className="metal-regular text-sm text-nude3 mt-3 leading-7 md:text-xl md:mt-6">ជួបជុំភ្ញៀវកិត្តិយស និងទទួលទានអាហារសម្រន់</p>
+                <p className="metal-regular text-sm text-nude3 mt-3 leading-7 md:text-xl md:mt-6">ជួបជុំភ្ញៀវកិត្តិយស</p>
             </div>
 
             <div className="text-center py-10 md:py-16">

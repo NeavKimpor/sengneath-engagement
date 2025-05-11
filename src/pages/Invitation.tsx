@@ -31,6 +31,15 @@ function Invitation() {
     setSelectedImage(null);
     };
 
+    // Disable scroll when modal is open
+    useEffect(() => {
+        if (isOpen) {
+            document.body.style.overflow = "hidden"; // Disable scroll
+        } else {
+            document.body.style.overflow = "auto"; // Enable scroll
+        }
+    }, [isOpen]);
+
     useEffect(() => {
         // Scroll to the top of the page when the component mounts
         window.scrollTo(0, 0);
@@ -59,7 +68,7 @@ function Invitation() {
 
                         <div className="relative w-64 max-w-md h-auto mx-auto py-4 md:w-96">
                             {/* Image */}
-                            <img src={KHLogo} className="mx-auto w-56 h-auto md:w-72" alt="" />
+                            <img src={KHLogo} className="mx-auto w-56 h-auto md:w-72 animate-turn3D" alt="" />
 
                             {/* Floating Names */}
                             <div className="absolute bottom-4 left-0 right-0 flex justify-between items-center gap-12">

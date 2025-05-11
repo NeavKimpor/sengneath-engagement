@@ -28,11 +28,17 @@ export default {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-10px)' },
         },
+        turn3D: {
+          '0%': { transform: 'perspective(400px) rotateY(0deg)' },
+          '50%': { transform: 'perspective(400px) rotateY(-20deg)' },
+          '100%': { transform: 'perspective(400px) rotateY(20deg)' },
+        },
       },
       animation: {
         zoom: 'zoom 2s ease-in-out infinite',
         'spin-slow': 'spin 3s linear infinite',
         float: 'float 2s ease-in-out infinite',
+        turn3D: 'turn3D 4s ease-in-out infinite alternate',
       },
     },
   },

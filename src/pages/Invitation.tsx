@@ -90,7 +90,7 @@ function Invitation() {
                         </div>
                     </div>
                     <h1 className="text-center moulpali-medium mt-4 text-sm text-nude2 md:text-xl md:py-6">មានកិត្តិយសសូមគោរពអញ្ជើញ</h1>
-                    <p className="metal-regular text-center text-xs leading-7 mt-6 text-nude3 px-2 md:text-lg md:leading-10 md:px-8 lg:px-80">ឯកឧត្តម លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា​ ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធពរជ័យសិរិសួស្តីជ័យមង្គលក្នុងពិធីពិសាស្លាដក់កន្សែងកូនប្រុសស្រីរបស់យើងខ្ញុំ</p>
+                    <p className="metal-regular text-center text-[0.8rem] leading-7 mt-6 text-nude3 px-2 md:text-lg md:leading-10 md:px-8 lg:px-80">ឯកឧត្តម លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា​ ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធពរជ័យសិរីសួស្តីជ័យមង្គល ក្នុងពិធីពិសាស្លាដក់កន្សែងកូនប្រុសស្រីរបស់យើងខ្ញុំ</p>
                     <div className="flex justify-around items-center py-6 lg:px-32">
                         <div className="text-center md:mt-6">
                             <p className="metal-regular text-xs text-nude2 md:text-lg">កូនប្រុសនាម</p>
@@ -103,7 +103,7 @@ function Invitation() {
                             <h1 className="moul-regular text-center mt-2 text-mediumearth md:text-2xl md:mt-5">រិន<br></br>សានាថ</h1>
                         </div>
                     </div>
-                    <p className="metal-regular text-center text-xs leading-7 text-nude3 md:text-lg md:leading-10 md:my-4">ដែលនឹងប្រព្រឹត្តទៅនៅថ្ងៃសៅរ៍ ៥កើត ខែជេស្ឋ ឆ្នាំម្សាញ់ <br></br>សប្តស័ក ពុទ្ធសករាជ២៥៦៩ ត្រូវនឹងថ្ងៃទី៣១ ខែឧសភា ឆ្នាំ២០២៥ <br></br>វេលាម៉ោង ៩:០០ ព្រឹក ស្ថិតនៅភោជនីយដ្ធាន ជីងឡុង</p>
+                    <p className="metal-regular text-center text-[0.8rem] leading-7 text-nude3 md:text-lg md:leading-10 md:my-4">ដែលនឹងប្រព្រឹត្តទៅនៅថ្ងៃសៅរ៍ ៥កើត ខែជេស្ឋ ឆ្នាំម្សាញ់ <br></br>សប្តស័ក ពុទ្ធសករាជ២៥៦៩ ត្រូវនឹងថ្ងៃទី៣១ ខែឧសភា ឆ្នាំ២០២៥ <br></br>វេលាម៉ោង ៩:០០ ព្រឹក ស្ថិតនៅភោជនីយដ្ធាន ជីងឡុង</p>
                     
                     <div className="text-center mt-6">
                         <LocationButton/>

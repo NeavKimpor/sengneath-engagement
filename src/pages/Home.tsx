@@ -1,8 +1,9 @@
 import React from "react";
 import OpeningButton from "../components/OpeningButton";
-import Logo from "../assets/images/logo.webp"
+import Logo from "/logofront.png"
 
 function Home() {
+    
     return (
         <div className="home flex flex-col items-center" >
             <img src={Logo} className="logo w-64 max-w-md h-auto mx-auto pt-16 pb-8" alt="" />

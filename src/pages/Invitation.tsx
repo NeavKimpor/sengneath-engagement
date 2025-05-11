@@ -22,152 +22,127 @@ function Invitation() {
                 {/* Opening */}
                 <div className="text-center">
                     
-                    <div className="moulpali-bold text-[1.35rem] text-nude2 my-4">
+                    <div className="moulpali-bold text-[1.35rem] text-nude2 my-4 md:text-3xl md:mt-16">
                         <div>សិរីមង្គល</div>
-                        <div className="mt-2">ពិធីពិសាស្លាដក់កន្សែង</div>
+                        <div className="mt-2 md:mt-6">ពិធីពិសាស្លាដក់កន្សែង</div>
                     </div>
 
-                    {/* <img src={Logo} className="w-64 max-w-md h-auto mx-auto py-4" alt="" />
-                    <div className="flex justify-center items-center gap-12 py-6">
-                        <div className="groom-name">
-                            <p className="metal-regular text-sm text-nude2 mb-2">កូនប្រុសនាម</p>
-                            <h1 className="moul-regular text-lg text-mediumearth">នៅ គីមសេង</h1>
-                        </div>
-                        <div className="bride-name">
-                            <p className="metal-regular text-sm text-nude2 mb-2">កូនស្រីនាម</p>
-                            <h1 className="moul-regular text-lg text-mediumearth">រិន សានាថ</h1>
-                        </div>
-                    </div> */}
-
-                    <div className="relative w-64 max-w-md h-auto mx-auto py-4">
+                    <div className="relative w-64 max-w-md h-auto mx-auto py-4 md:w-96">
                         {/* Image */}
-                        <img src={Logo} className="mx-auto w-56 h-auto" alt="" />
+                        <img src={Logo} className="mx-auto w-56 h-auto md:w-72" alt="" />
 
                         {/* Floating Names */}
                         <div className="absolute bottom-4 left-0 right-0 flex justify-between items-center gap-12">
                             <div className="groom-name text-center">
-                            <p className="metal-regular text-sm text-nude2 mb-2">កូនប្រុសនាម</p>
-                            <h1 className="moul-regular text-lg text-mediumearth">នៅ<br></br>គីមសេង</h1>
+                            <p className="metal-regular text-sm text-nude2 mb-2 md:text-xl">កូនប្រុសនាម</p>
+                            <h1 className="moul-regular text-lg text-mediumearth md:text-2xl md:mt-4">នៅ<br></br>គីមសេង</h1>
                             </div>
                             <div className="bride-name text-center">
-                            <p className="metal-regular text-sm text-nude2 mb-2">កូនស្រីនាម</p>
-                            <h1 className="moul-regular text-lg text-mediumearth">រិន<br></br>សានាថ</h1>
+                            <p className="metal-regular text-sm text-nude2 mb-2 md:text-xl">កូនស្រីនាម</p>
+                            <h1 className="moul-regular text-lg text-mediumearth md:text-2xl md:mt-4">រិន<br></br>សានាថ</h1>
                             </div>
                         </div>
                     </div>
 
-                    {/* <div className="datetime text-center py-4">
-                        <p className="metal-regular text-sm mb-4 text-nude2">ដែលប្រព្រឹត្តទៅនៅ</p>
-                        <p className="moul-regular text-mediumearth">​ថ្ងៃទី៣១​ ខែឧសភា ឆ្នាំ២០២៥</p>
-                    </div> */}
-                    <div className="flex flex-col items-center justify-center animate-float py-6 text-nude2">
-                        <ChevronDown size={32} className=""/>
-                        <p className="metal-regular text-sm">ទាញចុះក្រោម</p>
+                    <div className="flex flex-col items-center justify-center animate-float py-6 text-nude2 md:mt-8">
+                        <ChevronDown size={32} className="md:w-12 md:h-auto"/>
+                        <p className="metal-regular text-sm md:text-lg">ទាញចុះក្រោម</p>
                     </div>
                 </div>
 
                 {/* Album */}
-                <div className="py-10">
-                    <h1 className="moulpali-medium text-center text-nude2 mt-4 mb-10 text-xl">កម្រងរូបភាពអនុស្សាវរីយ៍</h1>
-                    <div className="flex justify-center gap-x-4">
-                        <img src={img1} className="w-32 h-auto rotate-6" alt="" />
-                        <img src={img2} className="w-32 h-auto -rotate-6" alt="" />
+                <div className="py-10 md:py-16">
+                    <h1 className="moulpali-medium text-center text-nude2 mt-4 mb-10 text-xl md:text-3xl md:mt-8 md:mb-16">កម្រងរូបភាពអនុស្សាវរីយ៍</h1>
+                    <div className="flex justify-center gap-x-4 md:gap-x-8">
+                        <img src={img1} className="w-32 h-auto rotate-6 md:w-56 lg:w-72" alt="" />
+                        <img src={img2} className="w-32 h-auto -rotate-6 md:w-56 lg:w-72" alt="" />
                     </div>
-                    <div className="flex justify-center gap-x-4 my-4">
-                        <img src={img6} className="w-32 h-auto" alt="" />
-                        <img src={img4} className="w-32 h-auto" alt="" />
+                    <div className="flex justify-center gap-x-4 my-4 md:gap-x-8 lg:my-12">
+                        <img src={img6} className="w-32 h-auto md:w-56 lg:w-72" alt="" />
+                        <img src={img4} className="w-32 h-auto md:w-56 lg:w-72" alt="" />
                     </div>
-                    <div className="flex justify-center gap-x-4">
-                        <img src={img5} className="w-32 h-auto -rotate-6" alt="" />
-                        <img src={img3} className="w-32 h-auto rotate-6" alt="" />
+                    <div className="flex justify-center gap-x-4 md:gap-x-8">
+                        <img src={img5} className="w-32 h-auto -rotate-6 md:w-56 lg:w-72" alt="" />
+                        <img src={img3} className="w-32 h-auto rotate-6 md:w-56 lg:w-72" alt="" />
                     </div>
                 </div>
 
                 {/* Family */}
-                <div className="py-10">
-                    <h1 className="moulpali-medium text-center pb-8 text-nude2 text-xl">ពិធីពិសាស្លាដក់កន្សែង</h1>
+                <div className="py-10 md:py-16">
+                    <h1 className="moulpali-medium text-center pb-8 text-nude2 text-xl md:text-3xl md:pb-16">ពិធីពិសាស្លាដក់កន្សែង</h1>
                     <div className="flex justify-around">
                         <div className="">
-                            <div className="flex gap-1 items-center mb-2">
-                                <p className="metal-regular text-xs text-nude2">លោក</p>
-                                <p className="moul-regular text-sm text-mediumearth">នៅ ធី</p>
+                            <div className="flex gap-1 items-center mb-2 md:gap-4">
+                                <p className="metal-regular text-xs text-nude2 md:text-lg">លោក</p>
+                                <p className="moul-regular text-sm text-mediumearth md:text-2xl">នៅ ធី</p>
                             </div>
-                            <div className="flex gap-1 items-center mb-2">
-                                <p className="metal-regular text-xs text-nude2">លោកស្រី</p>
-                                <p className="moul-regular text-sm text-mediumearth">គ្រី សុខហេង</p>
+                            <div className="flex gap-1 items-center mb-2 md:gap-4">
+                                <p className="metal-regular text-xs text-nude2 md:text-lg">លោកស្រី</p>
+                                <p className="moul-regular text-sm text-mediumearth md:text-2xl">គ្រី សុខហេង</p>
                             </div>
                         </div>
                         <div className="">
                             {/* <h1 className="title">លោក នៅ ធី</h1> */}
-                            <div className="flex gap-1 items-center">
-                                <p className="metal-regular text-xs text-nude2">លោកស្រី</p>
-                                <p className="moul-regular text-sm text-mediumearth">ហ៊ី សនសានី</p>
+                            <div className="flex gap-1 items-center md:gap-4">
+                                <p className="metal-regular text-xs text-nude2 md:text-lg">លោកស្រី</p>
+                                <p className="moul-regular text-sm text-mediumearth md:text-2xl">ហ៊ី សនសានី</p>
                             </div>
                         </div>
                     </div>
-                    <h1 className="text-center moulpali-medium mt-4 text-sm text-nude2">មានកិត្តិយសសូមគោរពអញ្ជើញ</h1>
-                    <p className="metal-regular text-center text-xs leading-7 mt-6 text-nude3 px-2">ឯកឧត្តម លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា​ ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធពរជ័យសិរិសួស្តីជ័យមង្គលក្នុងពិធីពិសាស្លាដក់កន្សែងកូនប្រុសស្រីរបស់យើងខ្ញុំ</p>
-                    <div className="flex justify-around items-center py-6">
-                        <div>
-                            <p className="metal-regular text-xs text-nude2">កូនប្រុសនាម</p>
-                            <h1 className="moul-regular text-center mt-2 text-mediumearth">នៅ<br></br>គីមសេង</h1>
+                    <h1 className="text-center moulpali-medium mt-4 text-sm text-nude2 md:text-xl md:py-6">មានកិត្តិយសសូមគោរពអញ្ជើញ</h1>
+                    <p className="metal-regular text-center text-xs leading-7 mt-6 text-nude3 px-2 md:text-lg md:leading-10 md:px-8 lg:px-80">ឯកឧត្តម លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា​ ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធពរជ័យសិរិសួស្តីជ័យមង្គលក្នុងពិធីពិសាស្លាដក់កន្សែងកូនប្រុសស្រីរបស់យើងខ្ញុំ</p>
+                    <div className="flex justify-around items-center py-6 lg:px-32">
+                        <div className="text-center md:mt-6">
+                            <p className="metal-regular text-xs text-nude2 md:text-lg">កូនប្រុសនាម</p>
+                            <h1 className="moul-regular text-center mt-2 text-mediumearth md:text-2xl md:mt-5">នៅ<br></br>គីមសេង</h1>
                         </div>
-                        {/* <img src={Logo} className="w-32 h-auto" alt="" /> */}
-                        {/* <div className="items-center text-center">
-                            <p className="metal-regular text-[0.7rem] text-nude3">ជា</p>
-                            <p className="moul-regular text-md text-mediumearth pb-2">គូ</p>
-                            <p className="metal-regular text-[0.7rem] text-nude3">នឹង</p>
-                        </div> */}
-                        {/* <div className="relative flex justify-center items-center w-10 h-10">
-                            <Heart className="fill-mediumearth text-mediumearth w-full h-full" />
-                            <Heart size={16} className="fill-mediumearth text-mediumearth absolute -right-2 bottom-1 rotate-12" />
-                        </div> */}
-                        <Heart size={32} className="fill-mediumearth text-mediumearth" />
-                        <div className="br-name">
-                            <p className="metal-regular text-xs text-nude2">កូនស្រីនាម</p>
-                            <h1 className="moul-regular text-center mt-2 text-mediumearth">រិន<br></br>សានាថ</h1>
+
+                        <Heart size={32} className="fill-mediumearth text-mediumearth md:w-16 md:h-auto" />
+                        <div className="text-center md:mt-6">
+                            <p className="metal-regular text-xs text-nude2 md:text-lg">កូនស្រីនាម</p>
+                            <h1 className="moul-regular text-center mt-2 text-mediumearth md:text-2xl md:mt-5">រិន<br></br>សានាថ</h1>
                         </div>
                     </div>
-                    <p className="metal-regular text-center text-xs leading-7 text-nude3">ដែលនឹងប្រព្រឹត្តទៅនៅថ្ងៃសៅរ៍ ៥កើត ខែជេស្ឋ ឆ្នាំម្សាញ់ <br></br>សប្តស័ក ពុទ្ធសករាជ២៥៦៩ ត្រូវនឹងថ្ងៃទី៣១ ខែឧសភា ឆ្នាំ២០២៥ <br></br>វេលាម៉ោង ៩:០០ ព្រឹក ស្ថិតនៅភោជនីយដ្ធាន ជីងឡុង</p>
-                    {/* <div className="datetime text-center">
-                        <div className="flex gap-1 justify-center items-end">
-                            <p className="metal-regular text-sm">ដែលប្រព្រឹត្តទៅ ចាប់ពីម៉ោង</p>
-                            <p className="moul-regular text-md"> ៩ព្រឹក</p>
-                        </div>
-                        <p className="moul-regular mt-2">​ថ្ងៃទី៣១​ ខែឧសភា ឆ្នាំ២០២៥</p>
-                    </div> */}
+                    <p className="metal-regular text-center text-xs leading-7 text-nude3 md:text-lg md:leading-10 md:my-4">ដែលនឹងប្រព្រឹត្តទៅនៅថ្ងៃសៅរ៍ ៥កើត ខែជេស្ឋ ឆ្នាំម្សាញ់ <br></br>សប្តស័ក ពុទ្ធសករាជ២៥៦៩ ត្រូវនឹងថ្ងៃទី៣១ ខែឧសភា ឆ្នាំ២០២៥ <br></br>វេលាម៉ោង ៩:០០ ព្រឹក ស្ថិតនៅភោជនីយដ្ធាន ជីងឡុង</p>
+                    
                     <div className="text-center mt-6">
                         <LocationButton/>
                     </div>
                 </div>
 
                 {/* Agenda */}
-                <div className="py-6">
-                    <h1 className="moulpali-medium text-center pb-10 text-nude2 text-xl">ដំណើរការកម្មវិធី</h1>
+                <div className="py-6 md:py-16">
+                    <h1 className="moulpali-medium text-center pb-10 text-nude2 text-xl md:text-3xl">ដំណើរការកម្មវិធី</h1>
                     <Agenda/>
                 </div>
 
                 {/* Countdown */}
-                <div className="py-6">
-                    <h1 className="moulpali-medium text-center pb-10 text-nude2 text-xl">ចំនួនថ្ងៃរាប់ថយក្រោយ</h1>
+                <div className="py-6 md:py-16">
+                    <h1 className="moulpali-medium text-center pb-10 text-nude2 text-xl md:text-3xl md:mb-4">ចំនួនថ្ងៃរាប់ថយក្រោយ</h1>
                     <Countdown/>
                 </div>
 
                 {/* Dress Code */}
-                <div className="py-6">
-                    <h1 className="moulpali-medium text-center pb-10 text-nude2 text-xl">កូដសម្លៀកបំពាក់</h1>
-                    <div className="flex justify-center gap-1 px-1">
-                        <div className="w-20 h-40 bg-[#D4CDBD] flex items-center justify-center text-white"></div>
-                        <div className="w-20 h-40 bg-[#A9B5BA] flex items-center justify-center text-white"></div>
-                        <div className="w-20 h-40 bg-[#C7D2AB] flex items-center justify-center text-white"></div>
-                        <div className="w-20 h-40 bg-[#A7A155] flex items-center justify-center text-white"></div>
-                        <div className="w-20 h-40 bg-[#C8AC94] flex items-center justify-center text-white"></div>
+                <div className="py-6 md:py-16">
+                    <h1 className="moulpali-medium text-center pb-10 text-nude2 text-xl md:text-3xl">កូដសម្លៀកបំពាក់</h1>
+                    <div className="flex justify-center gap-1 px-1 md:gap-4 md:mt-4">
+                        <div className="w-20 h-40 md:w-24 md:h-48 bg-[#D4CDBD] flex items-center justify-center text-white"></div>
+                        <div className="w-20 h-40 md:w-24 md:h-48 bg-[#A9B5BA] flex items-center justify-center text-white"></div>
+                        <div className="w-20 h-40 md:w-24 md:h-48 bg-[#C7D2AB] flex items-center justify-center text-white"></div>
+                        <div className="w-20 h-40 md:w-24 md:h-48 bg-[#A7A155] flex items-center justify-center text-white"></div>
+                        <div className="w-20 h-40 md:w-24 md:h-48 bg-[#C8AC94] flex items-center justify-center text-white"></div>
                     </div>
                 </div>
 
                 {/* Thanks Message */}
                 <div>
-                    <h1 className="moulpali-medium text-center pt-8 pb-10 text-nude2 text-xl">សូមអរគុណ!</h1>
+                    <h1 className="moulpali-medium text-center mt-16 pb-4 text-nude2 text-xl md:text-3xl">សេចក្តីថ្លែងអំណរគុណ</h1>
+                    <p className="metal-regular text-center text-xs leading-7 mt-6 text-nude3 px-2 md:text-lg md:leading-10 md:px-8 lg:px-80">យើងខ្ញុំជាមាតាបិតា សូមថ្លែងអំណរគុណយ៉ាងជ្រាលជ្រៅចំពោះការអញ្ជើញចូលរួម ជាភ្ញៀវកិត្តិយសក្នុងពិធីពិសាស្លាដក់កន្សែង កូនប្រុស កូនស្រី របស់យើងខ្ញុំ។ សូមគោរពជូនពរ ឯកឧត្តម លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា​ ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា និងភ្ញៀវកិត្តិយសទាំងអស់ សូមមានសុខភាពល្អ និងទទួលជោគជ័យគ្រប់ភារកិច្ច សូមអរគុណ។</p>
+                </div>
+
+                <div>
+                    <h1 className="moulpali-medium text-center pt-8 pb-4 text-nude2 text-xl md:text-3xl md:mt-10">លិខិតសូមអភ័យទោស</h1>
+                    <p className="metal-regular text-center text-xs leading-7 mt-6 text-nude3 px-2 md:text-lg md:leading-10 md:px-8 lg:px-80">យើងខ្ញុំជាមាតាបិតា កូនប្រុស កូនស្រី សូមអភ័យទោស ដោយពុំបានជួបអញ្ជើញដោយផ្ទាល់។ វត្តមានរបស់ ឯកឧត្តម លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា​ ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា និងភ្ញៀវកិត្តិយសទាំងអស់ គឺជាកិត្តិយសដ៏ឧត្តុង្គឧត្តមសម្រាប់គ្រួសាររបស់យើងខ្ញុំ។</p>
                 </div>
 
             </div>

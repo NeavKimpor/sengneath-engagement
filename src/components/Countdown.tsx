@@ -40,30 +40,30 @@ const Countdown = () => {
     return (
         <div className="flex items-center justify-center">
             <div className="text-center">
-                <div className="flex justify-between gap-6 text-xl">
+                <div className="flex justify-between gap-6 text-xl md:gap-10">
                     <div className="flex flex-col items-center gap-y-2">
-                        <span className="text-3xl font-bold text-nude2 moul-regular">
+                        <span className="text-2xl font-bold text-nude2 moul-regular md:text-3xl">
                         {toKhmerNumber(timeLeft.days)}
                         </span>
-                        <span className="text-nude2 moul-regular">ថ្ងៃ</span>
+                        <span className="text-nude2 moul-regular text-lg md:text-2xl">ថ្ងៃ</span>
                     </div>
                     <div className="flex flex-col items-center gap-y-2">
-                        <span className="text-3xl font-bold text-nude2 moul-regular">
+                        <span className="text-2xl font-bold text-nude2 moul-regular md:text-3xl">
                         {toKhmerNumber(timeLeft.hours)}
                         </span>
-                        <span className="text-nude2 moul-regular">ម៉ោង</span>
+                        <span className="text-nude2 moul-regular text-lg md:text-2xl">ម៉ោង</span>
                     </div>
                     <div className="flex flex-col items-center gap-y-2">
-                        <span className="text-3xl font-bold text-nude2 moul-regular">
+                        <span className="text-2xl font-bold text-nude2 moul-regular md:text-3xl">
                         {toKhmerNumber(timeLeft.minutes)}
                         </span>
-                        <span className="text-nude2 moul-regular">នាទី</span>
+                        <span className="text-nude2 moul-regular text-lg md:text-2xl">នាទី</span>
                     </div>
                     <div className="flex flex-col items-center gap-y-2">
-                        <span className="text-3xl font-bold text-nude2 moul-regular">
+                        <span className="text-2xl font-bold text-nude2 moul-regular md:text-3xl">
                         {toKhmerNumber(timeLeft.seconds)}
                         </span>
-                        <span className="text-nude2 moul-regular">វិនាទី</span>
+                        <span className="text-nude2 moul-regular text-lg md:text-2xl">វិនាទី</span>
                     </div>
                 </div>
             </div>

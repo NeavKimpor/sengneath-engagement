@@ -90,7 +90,7 @@ function Invitation() {
                         </div>
                     </div>
                     <h1 className="text-center moulpali-medium mt-4 text-sm text-nude2 md:text-xl md:py-6">មានកិត្តិយសសូមគោរពអញ្ជើញ</h1>
-                    <p className="metal-regular text-center text-[0.8rem] leading-7 mt-6 text-nude3 px-2 md:text-lg md:leading-10 md:px-8 lg:px-80">ឯកឧត្តម លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា​ ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធពរជ័យសិរីសួស្តីជ័យមង្គល ក្នុងពិធីពិសាស្លាដក់កន្សែងកូនប្រុសស្រីរបស់យើងខ្ញុំ</p>
+                    <p className="metal-regular text-center text-[0.8rem] leading-7 mt-6 text-nude3 px-2 md:text-lg md:leading-10 md:px-8 lg:px-32 xl:px-56">ឯកឧត្តម លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា​ ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា អញ្ជើញចូលរួមជាអធិបតី និងជាភ្ញៀវកិត្តិយស ដើម្បីប្រសិទ្ធពរជ័យសិរីសួស្តីជ័យមង្គល ក្នុងពិធីពិសាស្លាដក់កន្សែងកូនប្រុសស្រីរបស់យើងខ្ញុំ</p>
                     <div className="flex justify-around items-center py-6 lg:px-32">
                         <div className="text-center md:mt-6">
                             <p className="metal-regular text-xs text-nude2 md:text-lg">កូនប្រុសនាម</p>
@@ -137,12 +137,12 @@ function Invitation() {
                 {/* Thanks Message */}
                 <div>
                     <h1 className="moulpali-medium text-center mt-16 pb-4 text-nude2 text-xl md:text-3xl">សេចក្តីថ្លែងអំណរគុណ</h1>
-                    <p className="metal-regular text-center text-[0.8rem] leading-7 mt-6 text-nude3 px-2 md:text-lg md:leading-10 md:px-8 lg:px-80">យើងខ្ញុំជាមាតាបិតា សូមថ្លែងអំណរគុណយ៉ាងជ្រាលជ្រៅចំពោះការអញ្ជើញចូលរួម ជាភ្ញៀវកិត្តិយសក្នុងពិធីពិសាស្លាដក់កន្សែង កូនប្រុស កូនស្រី របស់យើងខ្ញុំ។ សូមគោរពជូនពរ ឯកឧត្តម លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា​ ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា និងភ្ញៀវកិត្តិយសទាំងអស់ សូមមានសុខភាពល្អ និងទទួលជោគជ័យគ្រប់ភារកិច្ច សូមអរគុណ។</p>
+                    <p className="metal-regular text-center text-[0.8rem] leading-7 mt-6 text-nude3 px-2 md:text-lg md:leading-10 md:px-8 lg:px-32 xl:px-56">យើងខ្ញុំជាមាតាបិតា សូមថ្លែងអំណរគុណយ៉ាងជ្រាលជ្រៅចំពោះការអញ្ជើញចូលរួម ជាភ្ញៀវកិត្តិយសក្នុងពិធីពិសាស្លាដក់កន្សែង កូនប្រុស កូនស្រី របស់យើងខ្ញុំ។ សូមគោរពជូនពរ ឯកឧត្តម លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា​ ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា និងភ្ញៀវកិត្តិយសទាំងអស់ សូមមានសុខភាពល្អ និងទទួលជោគជ័យគ្រប់ភារកិច្ច សូមអរគុណ។</p>
                 </div>
 
                 <div>
                     <h1 className="moulpali-medium text-center pt-8 pb-4 text-nude2 text-xl md:text-3xl md:mt-10">លិខិតសូមអភ័យទោស</h1>
-                    <p className="metal-regular text-center text-[0.8rem] leading-7 mt-6 text-nude3 px-2 md:text-lg md:leading-10 md:px-8 lg:px-80">យើងខ្ញុំជាមាតាបិតា កូនប្រុស កូនស្រី សូមអភ័យទោស ដោយពុំបានជួបអញ្ជើញដោយផ្ទាល់។ វត្តមានរបស់ ឯកឧត្តម លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា​ ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា និងភ្ញៀវកិត្តិយសទាំងអស់ គឺជាកិត្តិយសដ៏ឧត្តុង្គឧត្តមសម្រាប់គ្រួសាររបស់យើងខ្ញុំ។</p>
+                    <p className="metal-regular text-center text-[0.8rem] leading-7 mt-6 text-nude3 px-2 md:text-lg md:leading-10 md:px-8 lg:px-32 xl:px-56">យើងខ្ញុំជាមាតាបិតា កូនប្រុស កូនស្រី សូមអភ័យទោស ដោយពុំបានជួបអញ្ជើញដោយផ្ទាល់។ វត្តមានរបស់ ឯកឧត្តម លោកអ្នកឧកញ៉ា អ្នកឧកញ៉ា​ ឧកញ៉ា លោកជំទាវ លោក លោកស្រី អ្នកនាងកញ្ញា និងភ្ញៀវកិត្តិយសទាំងអស់ គឺជាកិត្តិយសដ៏ឧត្តុង្គឧត្តមសម្រាប់គ្រួសាររបស់យើងខ្ញុំ។</p>
                 </div>
 
             </div>

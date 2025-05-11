@@ -34,7 +34,7 @@ function Invitation() {
                 <img src="/lframe.png" className="fixed top-0 -left-16 h-screen object-cover z-10 pointer-events-none" alt="" />
                 <img src="/rframe.png" className="fixed top-0 -right-16 h-screen object-cover z-10 pointer-events-none" alt="" />
                 {/* <img src="/texture.png" className="fixed object-cover z-0 pointer-events-none" alt="" /> */}
-                <div className="py-28 px-3 relative z-10">
+                <div className="py-24 px-3 relative z-10">
                     {/* Opening */}
                     <div className="text-center">
                         

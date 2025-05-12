@@ -1,4 +1,4 @@
-import WaxSeal from '../assets/images/wax-full.png';
+import WaxSeal from '../assets/images/wax-full.webp'
 import { Link } from 'react-router-dom';
 
 function WaxSealButton() {
